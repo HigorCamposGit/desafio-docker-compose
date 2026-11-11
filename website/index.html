@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Docker DIO - Apache Server</title>
+    
+    <!-- Importação do Font Awesome para ícones -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    
+    <!-- Link para o CSS externo -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <div class="icon-header">
+            <i class="fa-brands fa-docker"></i>
+        </div>
+        
+        <h1>Aplicação Docker Compose Ativa!</h1>
+        <p>Servidor web Apache (httpd) está rodando com sucesso dentro de um container Docker gerenciado pelo Docker Compose.</p>
+
+        <div class="status-box">
+            <div class="status-item">
+                <i class="fa-solid fa-server"></i>
+                <span><strong>Servidor:</strong> Apache HTTP Server (`httpd`)</span>
+            </div>
+            <div class="status-item">
+                <i class="fa-solid fa-network-wired"></i>
+                <span><strong>Porta:</strong> 80 (http://localhost)</span>
+            </div>
+            <div class="status-item">
+                <i class="fa-solid fa-folder-open"></i>
+                <span><strong>Volume Local:</strong> `./website`</span>
+            </div>
+            <div class="status-item">
+                <i class="fa-solid fa-check-double"></i>
+                <span><strong>Status:</strong> Rodando em segundo plano</span>
+            </div>
+        </div>
+
+        <div class="footer-text">
+            <i class="fa-solid fa-graduation-cap"></i> © 2026 - Projeto Prático DIO - Conteinerização de Aplicações
+        </div>
+    </div>
+
+</body>
+</html>
